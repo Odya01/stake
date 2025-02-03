@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contact Stake F1 Team - Get in Touch</title>
+    <meta
+      name="description"
+      content="Reach out to the Stake F1 Team for inquiries about products, orders, or support. We're here to assist with all your needs."
+    />
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__top">
+        <a
+          href="https://play.google.com/store/apps/details?id=com.lamoda.lite&hl=en"
+          class="btn header__btn"
+          >Download app</a
+        >
+        <a href="index.html" class="header__logo">
+          <img
+            src="images/stake-f1-shop.png"
+            alt="header__logo"
+            class="header__img"
+          />
+        </a>
+        <div class="scds">
+          <button class="header__cart">
+            <span class="header__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <defs>
+                  <path
+                    d="M5.892 3c.5523 0 1 .4477 1 1s-.4477 1-1 1H3.7895a1 1 0 0 0-.9986.9475l-.7895 15c-.029.5515.3946 1.0221.9987 1.0525h17.8102c.5523 0 1-.4477.9986-1.0525l-.7895-15A1 1 0 0 0 20.0208 5H17.892c-.5523 0-1-.4477-1-1s.4477-1 1-1h2.1288c1.5956 0 2.912 1.249 2.9959 2.8423l.7894 15c.0035.0788.0035.0788.0042.1577 0 1.6569-1.3432 3-3 3H3c-.079-.0007-.079-.0007-.1577-.0041-1.6546-.0871-2.9253-1.499-2.8382-3.1536l.7895-15C.8775 4.249 2.1939 3 3.7895 3H5.892zm4 2c0 .5523-.4477 1-1 1s-1-.4477-1-1V3c0-1.6569 1.3432-3 3-3h2c1.6569 0 3 1.3431 3 3v2c0 .5523-.4477 1-1 1s-1-.4477-1-1V3c0-.5523-.4477-1-1-1h-2c-.5523 0-1 .4477-1 1v2z"
+                    id="icons-default-bag"
+                  ></path>
+                </defs>
+                <use
+                  xlink:href="#icons-default-bag"
+                  fill="#758CA3"
+                  fill-rule="evenodd"
+                ></use>
+              </svg>
+            </span>
+            <span class="header__price-div">
+              <span class="header__price">0.00</span>
+            </span>
+          </button>
+
+          <!-- Burger Menu -->
+          <input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
+          <label for="burger-checkbox" class="burger"></label>
+        </div>
+
+        <!-- Burger Navigation -->
+        <nav class="nav__burger">
+          <a href="teamwear.html" class="nav__list">Official Teamwear</a>
+          <a href="fanwear.html" class="nav__list">Fanwear</a>
+          <a href="merchandise.html" class="nav__list">Merchandise</a>
+          <a href="giftcards.html" class="nav__list">Gift Cards</a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.lamoda.lite&hl=en"
+            class="btn header__btn"
+            >Download app</a
+          >
+        </nav>
+      </div>
+
+      <div class="container header__container">
+        <nav class="header__nav">
+          <a href="teamwear.html" class="nav__list">Official Teamwear</a>
+          <a href="fanwear.html" class="nav__list">Fanwear</a>
+          <a href="merchandise.html" class="nav__list">Merchandise</a>
+          <a href="giftcards.html" class="nav__list">Gift Cards</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact">
+        <div class="container contact__container">
+          <h2 class="heading contact__heading">Contact Us</h2>
+          <p class="text contact__description">
+            Get in touch with the Stake F1 Team for any inquiries, support, or
+            feedback. We're here to help you with all your Formula 1 needs.
+          </p>
+          <form
+            action="thanks_form.php"
+            class="form contact__form"
+            method="post"
+          >
+            <div class="form__vvod">
+              <div class="form__input contact__input">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form__textarea contact__textarea">
+                <textarea
+                  name="area"
+                  id="area"
+                  placeholder="Your message"
+                  required
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="checkbox contact__checkbox">
+              <input
+                type="checkbox"
+                name="privacy"
+                id="checkbox"
+                value="on"
+                required
+              />
+              <label for="checkbox">
+                I accept the
+                <a href="privacy-policy.html" style="color: #c56a47"
+                  >Privacy Policy</a
+                >
+              </label>
+            </div>
+
+            <button class="btn contact__btn" type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="contact-info">
+        <div class="container contact-info__container">
+          <div class="contact-info__block">
+            <h2 class="heading contact-info__heading">Our Location</h2>
+            <p class="text contact-info__text">
+              Tilak Nagar, Gokulpeth, Nagpur, Maharashtra 440010
+            </p>
+          </div>
+          <div class="contact-info__block">
+            <h2 class="heading contact-info__heading">Customer Support</h2>
+            <p class="text contact-info__text">
+              Reach out to our support team via email or phone. We're available
+              24/7 to assist you.
+            </p>
+            <ul class="contact-info__list">
+              <li class="text contact-info__list-item">
+                Email: contact@stake.com
+              </li>
+              <li class="text contact-info__list-item">
+                Phone: +91 91981 32184
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-map">
+        <div class="container contact-map__container">
+          <h2 class="heading contact-map__heading">Find Us Here</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232.5712712862283!2d79.05880082514837!3d21.146812545233175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c05e83ab234b%3A0xce620213ac6b0e21!2sJagat%20Towers!5e0!3m2!1sru!2slv!4v1737141866880!5m2!1sru!2slv"
+            width="100%"
+            height="550"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="contact-stats">
+        <div class="container contact-stats__container">
+          <div class="contact-stats__item">
+            <h3 class="heading contact-stats__number">100+</h3>
+            <p class="text contact-stats__label">Satisfied Customers</p>
+          </div>
+          <div class="contact-stats__item">
+            <h3 class="heading contact-stats__number">24/7</h3>
+            <p class="text contact-stats__label">Support Availability</p>
+          </div>
+          <div class="contact-stats__item">
+            <h3 class="heading contact-stats__number">5</h3>
+            <p class="text contact-stats__label">Years in Business</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer__container">
+        <div class="footer__partners">
+          <img src="images/footer1.png" alt="footer__img" class="footer__img" />
+          <img src="images/footer2.png" alt="footer__img" class="footer__img" />
+          <img src="images/footer3.png" alt="footer__img" class="footer__img" />
+        </div>
+        <div class="footer__link-service">
+          <a href="mailto:contact@stake.com" class="footer__link"
+            >contact@stake.com</a
+          >
+          <a href="tel:+919198132184" class="footer__link">+91 91981 32184</a>
+        </div>
+        <div class="footer__link-service">
+          <a href="privacy-policy.html" class="footer__link">Privacy Policy</a>
+          <a href="terms-conditions.html" class="footer__link"
+            >Terms & Conditions</a
+          >
+        </div>
+        <div class="footer__link-service">
+          <p class="text footer__text">2025</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="utmhandler_light.js"></script>
+  </body>
+</html>

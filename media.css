@@ -1,0 +1,144 @@
+@media (max-width: 1800px) {}
+
+@media (max-width: 1000px) {
+  .card__reviews {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card__testimonials-stats,
+  .card__testimonials-reviews {
+    width: 100%;
+  }
+
+  .card__testimonials-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-slider__container {
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+  .card-slider__right {
+    width: 100%;
+  }
+
+  .card-slider__image-wrapper {
+    width: 390px;
+    height: 480px;
+  }
+
+  .card-slider__left {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .burger {
+    display: block;
+  }
+
+  .header__container {
+    display: none;
+  }
+
+  .text-columns__container {
+    flex-direction: column;
+  }
+
+  main {
+    padding-top: 71px;
+  }
+}
+
+@media (max-width: 570px) {
+
+  .card-slider__arrow_prev,
+  .card-slider__arrow_next {
+    top: 98%;
+    z-index: 3;
+    border-radius: 5px;
+  }
+
+  .card-slider__arrow_prev {
+    left: 30%;
+  }
+
+  .card-slider__arrow_next {
+    right: 30%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__price-div {
+    display: none;
+  }
+
+  .gallery__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__top .header__btn {
+    display: none;
+  }
+
+  .card-slider__sizes {
+    flex-wrap: wrap;
+  }
+
+  .nav__burger .header__btn {
+    display: block;
+  }
+
+  .feat {
+    flex-direction: column;
+  }
+
+  .feat-hover {
+    width: 100%;
+  }
+
+  .card-slider__image-wrapper {
+    width: 100%;
+    height: 420px;
+  }
+
+  .card__prev {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hero__fanwear__title {
+    font-size: 30px;
+  }
+
+  .card__info,
+  .card__review-stars {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: start;
+  }
+
+  .card__review-stars {
+    margin-bottom: 3px;
+  }
+
+  .card__review-location {
+    margin-bottom: 0;
+  }
+
+  .footer__link-service {
+    flex-direction: column;
+  }
+
+  .cart {
+    width: 100%;
+    padding: 10px;
+  }
+}
