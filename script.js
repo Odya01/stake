@@ -456,8 +456,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-document.addEventListener("DOMContentLoaded", () => {});
-
 //
 // cart logic - cart js
 document.addEventListener("DOMContentLoaded", () => {
